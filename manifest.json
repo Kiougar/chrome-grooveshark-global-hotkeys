@@ -40,12 +40,12 @@
         },
         "NP-ADD-COL": {
             "suggested_key": { "default": "Ctrl+Shift+0" },
-            "description": "Add to favorites",
+            "description": "Add to collection",
             "global": true
         },
         "NP-REM-COL": {
             "suggested_key": { "default": "Ctrl+Shift+8" },
-            "description": "Add to collection",
+            "description": "Remove from collection",
             "global": true
         }
     },
