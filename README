@@ -1,12 +1,18 @@
-AUTHOR: Julian Xhokaxhiu
-VERSION: 0.9.1
-DESCRIPTION: Enable the mediakeys for Grooveshark
+AUTHOR: Georgios Tzourmpakis
+VERSION: 0.1
+DESCRIPTION: Enable global hot-keys for Grooveshark
+
+Based on the work from Julian Xhokaxhiu (https://github.com/julianxhokaxhiu/chrome-grooveshark-mediakeys-reloaded)
 
 HOW IT WORKS:
-As a native desktop application, you just press play/pause button,
-prev or next and it will trigger the buttons for the web app :)
-Now also working in background (minimize Chrome and forget about it).
+Just press play/pause, prev or next buttons and it will trigger the corresponding buttons for the webpage.
+There are also some predefined hot-keys to Favorite and Like songs:
 
-Now with two added keyboard shortcuts (Ctrl+Shift+9/0) to add to favorites/collection.
+	Ctrl+Shift+7 -> Remove from Favorites
+	Ctrl+Shift+8 -> Remove from Collection
+	Ctrl+Shift+9 -> Add to Favorites
+	Ctrl+Shift+0 -> Add to Collection
+
+Hotkeys also work when chrome is in background.
 
 Enjoy!

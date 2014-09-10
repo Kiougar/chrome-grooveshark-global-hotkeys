@@ -1,8 +1,8 @@
 {
     "manifest_version": 2,
-    "name": "Grooveshark Mediakeys Reloaded",
-    "version": "0.9.1",
-    "description": "Enable the use of MediaKeys for Grooveshark",
+    "name": "Grooveshark Global Hotkeys",
+    "version": "1.0.0",
+    "description": "Adds global hotkeys support for Grooveshark",
     "permissions": [
         "*://*.grooveshark.com/*"
     ],
@@ -28,14 +28,24 @@
             "description": "Next Key",
             "global": true
         },
-        "NP-FAV": {
+        "NP-ADD-FAV": {
             "suggested_key": { "default": "Ctrl+Shift+9" },
-            "description": "Favorites Key",
+            "description": "Add to favorites",
             "global": true
         },
-        "NP-ADD": {
+        "NP-REM-FAV": {
+            "suggested_key": { "default": "Ctrl+Shift+7" },
+            "description": "Remove from favorites",
+            "global": true
+        },
+        "NP-ADD-COL": {
             "suggested_key": { "default": "Ctrl+Shift+0" },
-            "description": "Collection key",
+            "description": "Add to favorites",
+            "global": true
+        },
+        "NP-REM-COL": {
+            "suggested_key": { "default": "Ctrl+Shift+8" },
+            "description": "Add to collection",
             "global": true
         }
     },
